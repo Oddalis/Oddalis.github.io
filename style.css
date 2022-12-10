@@ -1,0 +1,124 @@
+/*Estilos para el body
+background-color = color de fondo
+    font-family = tipo de fuente
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*navegador*/
+nav{
+    background: linear-gradient(to right, #D7BDE2, #BB8FCE);
+  
+    width: 100%;
+}
+
+nav li a{
+    color: white !important;
+}
+
+nav li a:hover{
+    color: cyan !important;
+}
+
+
+/*Estilos para controlar el tamaño de las imágenes del carrusel
+width - ancho
+height - alto */
+.carousel-item img{
+    width: 437%;
+    height: 750px;
+}
+
+/*Estilos para título
+text-alig = alínea el texto
+color = cambia el color de letra
+font-weight = ancho de letra
+padding-top = padding de alto*/
+h1{
+    text-align: center;
+    color: #BB8FCE;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+/*Alineación texto e imagen biografia*/
+#biografia div{
+    margin: 1 auto;
+    width: 90%;
+    padding: 40px;
+}
+
+/*Tamaño imagen biografia*/
+#discografia div img{
+ width: 300px;
+ margin: 0 auto;
+}
+
+/*Alineación texto e imagen discografia*/
+#discografia div{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+/*color de fondo y de letra*/
+#discografia{
+    background-color: #D7BDE2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Alineación de cards integrantes*/
+#integrantes {
+   padding: 5%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+#integrantes div {
+    display: inline-block;
+    padding: 20px;
+ }
+
+#integrantes h2 {
+    padding: 20px;
+    text-align: center;
+    color:#BB8FCE;
+    font-weight: bolder;
+ }
+
+
+ /*Alineación de video*/
+ #video{
+    text-align: center;
+    padding: 50px;
+ }
+
+ /*Diseño footer*/
+ footer{
+    background: linear-gradient(to right, #D7BDE2, #BB8FCE);
+    color: white;
+    text-align: center;
+ }
+
+ footer p{
+    margin: 0;
+    padding: 20px;
+ }
+
+ /*estilos de enlace en footer*/
+ footer a{
+    color: white;
+ }
+
+ footer a:hover{
+    text-decoration: none;
+    color: cyan;
+ }
